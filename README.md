@@ -1,13 +1,24 @@
-# Getting Started
+# [Craig Parfitt - Portfolio Headless CMS](https://www.craigparfitt.com/).
+<https://www.craigparfitt.com>
 
-1. create `.env.development` file in root folder with values of:
+## This is the backend.
+Built With [SanityStudio](https://www.sanity.io/).
+A content management system.
+
+The front end is located at [GitHub](https://github.com/craigsteel/csportfolio.git)
+and is built using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+The front and backend are both deployed and hosted with [vercel.com](https://vercel.com/).
+## Getting Started.
+
+Create `.env.development` file in root folder with values of:
 
 ```javascript
 SANITY_STUDIO_PROJECT_URL=YOUR_URL // e.g. http://localhost:3000
 SANITY_STUDIO_PREVIEW_SECRET=YOUR_SECRET// unique string
 ```
 
-2. Run the development server:
+Run the development server:
 
 ```bash
 npm run start
